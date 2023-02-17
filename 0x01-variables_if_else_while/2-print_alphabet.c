@@ -2,17 +2,17 @@
 
 /**
  * main - Entry point
+ *
  * Return: Always 0 (Success)
-*/
-
+ */
 int main(void)
 {
-	char alphabet = 'a';
-	while (alphabet <= 'z')
-	{
-	putchar(alphabet);
-	alphabet++;
-	}
+	char alpha = 'a';
+		while (alpha <= 'z')
+		{
+			putchar(alpha);
+			alpha++;
+		}
 	putchar('\n');
 	return (0);
 }
